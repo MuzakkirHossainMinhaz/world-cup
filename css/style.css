@@ -1,0 +1,583 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner section */
+header {
+    margin: 50px auto 0;
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.left {
+    margin-left: 106px;
+    width: 531px;
+}
+
+.mobile {
+    display: none;
+}
+
+.left h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: white;
+}
+
+.left p {
+    line-height: 26px;
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 30px;
+}
+
+button {
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    gap: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    width: 581px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* main section */
+main {
+    width: 1321px;
+    margin: 130px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.left-main {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 252px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #161616;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: #DD0000;
+    color: white;
+    font-weight: 600;
+}
+
+.right-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+.match {
+    width: 312px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E8E8E8;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    color: #161616;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.team-name {
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+
+.date {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+/* footer section */
+footer {
+    background-color: #161616;
+    height: 444px;
+}
+
+footer h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+footer hr {
+    width: 1320px;
+    margin: 50px auto;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.links {
+    width: 898px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* responsive for tablet devices */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* banner section */
+    header {
+        margin: 50px auto 0;
+        background-color: #161616;
+        border-radius: 30px;
+        width: 734px;
+        height: 398px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        position: relative;
+    }
+
+    .left,
+    .right {
+        width: 50%;
+    }
+
+    .left {
+        margin-left: 76px;
+        width: 316px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .left h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: white;
+    }
+
+    .left p {
+        line-height: 24px;
+        color: white;
+        font-size: 14px;
+        margin: 20px 0 30px;
+    }
+
+    .hidden-text {
+        display: none;
+    }
+
+    button {
+        background-color: #DD0000;
+        border-radius: 5px;
+        padding: 16px 25px;
+        gap: 10px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+    }
+
+    .right img {
+        width: 323px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    /* main section */
+    main {
+        width: 734px;
+        margin: 70px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .left-main {
+        width: 100%;
+        height: fit-content;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        gap: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        width: 252px;
+        height: 64px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        color: #161616;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .red {
+        background-color: #DD0000;
+        color: white;
+        font-weight: 600;
+    }
+
+    .right-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .match {
+        width: 357px;
+        height: 242px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .flag {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        color: #161616;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    .team-name {
+        margin: 20px 0 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #161616;
+    }
+
+    .date {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4d4d4d;
+    }
+
+    /* footer section */
+    footer {
+        background-color: #161616;
+        height: 444px;
+    }
+
+    footer h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    footer hr {
+        width: 734px;
+        margin: 50px auto;
+        height: 0;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .links {
+        width: 635px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #B9B9B9;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
+/* responsive for phone devices */
+@media screen and (max-width: 767px) {
+
+    /* banner section */
+    header {
+        margin: 50px auto 0;
+        background-color: #161616;
+        border-radius: 10px;
+        width: 334px;
+        height: 472px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
+    }
+
+    .left,
+    .right {
+        width: 50%;
+    }
+
+    .left {
+        position: absolute;
+        top: 0;
+        margin: 28px auto 0;
+        width: 258px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .large-devices {
+        display: none;
+    }
+
+    .left h1 {
+        font-weight: 700;
+        font-size: 22px;
+        width: 228px;
+        text-align: center;
+        line-height: 33px;
+        color: white;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .left p {
+        line-height: 24px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    .hidden-text {
+        display: none;
+    }
+
+    button {
+        background-color: #DD0000;
+        border-radius: 5px;
+        padding: 13px 22px;
+        gap: 10px;
+        border: none;
+        font-size: 16px;
+        color: white;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+    }
+
+    .right img {
+        width: 233px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    /* main section */
+    main {
+        width: 334px;
+        margin: 33px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .left-main {
+        width: 100%;
+        height: fit-content;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        width: fit-content;
+        padding: 0 24px;
+        height: 48px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        color: #161616;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .red {
+        background-color: #DD0000;
+        color: white;
+        font-weight: 600;
+    }
+
+    .right-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .match {
+        width: 335px;
+        height: 242px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #E8E8E8;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .flag {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        color: #161616;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    .team-name {
+        margin: 20px 0 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #161616;
+    }
+
+    .date {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4d4d4d;
+    }
+
+    /* footer section */
+    footer {
+        background-color: #161616;
+        height: 412px;
+    }
+
+    footer h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        padding-top: 24px;
+    }
+
+    footer hr {
+        width: 335px;
+        margin: 24px auto;
+        height: 0;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .links {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 27px;
+        flex-wrap: wrap;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #B9B9B9;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}

@@ -187,6 +187,14 @@ footer hr {
     justify-content: space-between;
 }
 
+small {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 6rem;
+}
+
 /* responsive for tablet devices */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
